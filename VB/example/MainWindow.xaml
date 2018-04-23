@@ -1,0 +1,11 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:local="clr-namespace:example"
+        x:Class="example.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <dxe:TextEdit VerticalAlignment="Top" local:Helper.MaxLines="3" AcceptsReturn="True" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
